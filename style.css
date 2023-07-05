@@ -114,3 +114,22 @@ h1 {
   bottom: 7%;
   right: 8%;
 }
+
+@media screen and (max-width: 800px) {
+  .section-1 h1,
+  .section-1 p {
+    text-align: center;
+  }
+  article {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .details--col {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .aside {
+    bottom: 20px;
+    right: calc(50% - 161px);
+  }
+}
